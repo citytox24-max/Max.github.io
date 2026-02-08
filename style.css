@@ -39,3 +39,41 @@ footer {
     padding: 20px;
     color: #777;
   }
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 15px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background: #0a2540;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+.github {
+  background: #24292e;
+}
+
+.email {
+  background: #6a1b9a;
+}
+
+.location {
+  margin-top: 20px;
+  font-weight: bold;
+    }
